@@ -1,0 +1,38 @@
+
+.list_element {
+    border-radius: 5px;
+    box-shadow: 0px 30px 40px -20px hsl(229, 6%, 66%);
+    padding: 30px;
+    margin: 0 auto 20px auto;
+    border-top: 3px solid hsl(229, 6%, 66%);
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-end;
+    width: 75%;
+}
+
+li {
+    display: inline-block;
+    font-size: 2em;
+    font-weight: 400;
+}
+
+img {
+    display: inline-block;
+    border-radius: 50%;
+    max-width: 8%;
+    height: 8%;
+    margin-right: 5%;
+}
+
+p {
+    display: inline-block;
+    margin-left: auto;
+    cursor: pointer;
+}
+
+a {
+    font-size: 2em;
+    font-weight: lighter;
+    color: inherit;
+}
